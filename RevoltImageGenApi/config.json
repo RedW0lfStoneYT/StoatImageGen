@@ -1,0 +1,32 @@
+{
+  "userNamePlaceholder": "{username}",
+  "serverNamePlaceholder": "{server_name}",
+  "serverMemberCountPlaceholder": "{total_members}",
+
+  "defaultImageFilePath": "DefaultBackground.png",
+  "defaultWelcomeText": "Welcome {username} to {server_name},\nYou are user #{total_members}!",
+  "defaultTextColor": "#000000",
+
+  "mongo": {
+    "connectionString": "mongodb://localhost:27017/serverInfo",
+    "databaseName": "serverInfo",
+    "collectionName": "serverInfo",
+    "authCollectionName": "authTokens",
+    "endpointLogCollection": "endpointLogs",
+    "endpointTelemetryCollection": "endpointTelemetry"
+  },
+
+  "imageSettings": {
+    "profileImageLocation": {
+      "x": 27,
+      "width": 92,
+      "height": 92
+    },
+    "welcomeTextLocation": {
+      "x": 133,
+      "width": 340,
+      "height": 100
+    },
+    "defaultFontPath": "DefaultFont/Helvetica.ttf"
+  }
+}
